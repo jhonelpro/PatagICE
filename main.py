@@ -318,7 +318,7 @@ def procesar_pregunta(pregunta, iceberg_df, water_df, tipo_usuario):
                 "Sábado": "🏞️ Explora los senderos cercanos con un guía local.",
                 "Domingo": "📷 Comparte tus fotos de la aventura en redes sociales."
             },
-            "Operador Local": {
+            "Comunidad Local": {
                 "Lunes": "⚙️ Verifica el estado de las embarcaciones para la semana.",
                 "Martes": "📡 Monitorea las condiciones de la laguna cada hora.",
                 "Miércoles": "🚨 Revisa los protocolos de emergencia.",
