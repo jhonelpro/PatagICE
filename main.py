@@ -674,7 +674,7 @@ elif "Turista" in tipo_usuario:
             """, unsafe_allow_html=True)
 
 
-elif "Local" in tipo_usuario:
+elif "Comunidad" in tipo_usuario:
     with col1:
         st.markdown("### 📈 **Panel de Operaciones Locales**")
         fig_water_loc = go.Figure()
