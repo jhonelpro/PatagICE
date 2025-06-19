@@ -329,7 +329,7 @@ def procesar_pregunta(pregunta, iceberg_df, water_df, tipo_usuario):
             }
         }
         # Normalizar tipo_usuario para coincidir con las claves del diccionario
-        tipos_validos = ["Investigador Científico", "Turista Aventurero", "Operador Local"]
+        tipos_validos = ["Investigador Científico", "Turista Aventurero", "Comunidad Local"]
         tipo_normalizado = next((t for t in tipos_validos if t in tipo_usuario), None)
 
         if tipo_normalizado and dia_semana in consejos.get(tipo_normalizado, {}):
